@@ -1,0 +1,360 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    background: #ecdcc3;
+}
+
+header {
+    width: 100%;
+    height: 150px;
+}
+
+
+nav {
+    border-bottom: 2px solid #af6454;
+    margin-top: 2em;
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+.menu-principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 1em;
+
+}
+
+.menu {
+    display: flex;
+
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    gap: 100px;
+}
+
+.menu li {
+    display: flex;
+}
+
+.menu li a {
+    color: #af6454;
+    text-decoration: none;
+
+}
+
+.menu li a:hover {
+    color: #6d453c;
+    cursor: pointer;
+}
+
+.main {
+    width: 100%;
+
+}
+
+.container {
+    display: flex;
+    gap: 10px;
+}
+
+/*banner*/
+.Orçamento {
+    display: flex;
+    flex-direction: column;
+    margin-top: -6em;
+}
+
+.imagem-banner {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+.Conteudo-Principal-Escrito {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.Conteudo-Principal-Escrito-Titulo {
+    margin-top: 1em;
+    font-family: 'Righteous', cursive;
+    font-weight: 400px;
+    font-size: 30px;
+    color: #af6454;
+
+}
+
+.formulario {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.formulario-orcamento {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+
+}
+
+.formulario-orcamento form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2em;
+    gap: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.formulario-orcamento label {
+    display: flex;
+    flex-direction: row;
+    color: #6d453c;
+}
+
+.formulario-orcamento input {
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+    height: 25px;
+    width: 300px;
+    border-radius: 18px;
+    border: none;
+    background: rgb(197, 170, 135);
+}
+
+.formulario-orcamento textarea {
+    padding: 5px;
+    width: 300px;
+    height: 70px;
+}
+
+.enviar-mensagem {
+    display: block;
+
+}
+.button {
+    display: flex;
+    justify-content: end;
+}
+
+.button button {
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid #6d453c;
+}
+.button button:hover {
+    background: rgb(197, 170, 135);
+
+}
+
+.Frase-de-impacto {
+    display: flex;
+}
+
+.imagem-frase-de-impacto {
+    margin-top: 2em;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.imagem-frase-de-impacto img {
+    height: 240px;
+    width: 900px;
+    border-radius: 18px;
+}
+
+
+
+footer {
+    margin-top: 2em;
+    width: 100%;
+    padding: 1em;
+    display: flex;
+    justify-content: space-around;
+    background-color: #6d453c;
+}
+
+.bloco1-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 2em;
+    margin-top: 1em;
+}
+
+.institucional-titulo {
+    display: flex;
+    flex-direction: column;
+}
+
+.institucional-titulo p {
+    font-size: 18px;
+    color:#aa9691;
+}
+
+.intutucional-menu {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.intutucional-menu ul {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.institucional-menu li {
+    display: flex;
+    list-style: none;
+    
+
+
+}
+
+.item-menu-footer {
+    color: #e6b7ad;
+    text-decoration: none;
+    margin-top: px;
+    font-size: 14px;
+}
+
+.item-menu-footer:hover {
+    color: #91675e;
+    cursor: pointer;
+}
+.cnpj {
+    color: #9e8f8c;
+    margin-top: 2px;
+    font-size: 12px;
+}
+
+.bloco2-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 2em;
+    margin-top: 1em;
+}
+
+.Duvidas-titulo {
+    display: flex;
+    flex-direction: column;
+}
+
+.Duvidas-titulo p {
+    font-size: 18px;
+    color:#aa9691;
+}
+
+.Duvidas-menu {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.Duvidas-menu ul {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.Duvidas-menu li {
+    display: flex;
+    list-style: none;
+    
+
+
+}
+
+.item-menu-footer {
+    color: #e6b7ad;
+    text-decoration: none;
+    margin-top: px;
+    font-size: 14px;
+}
+
+.item-menu-footer:hover {
+    color: #91675e;
+    cursor: pointer;
+}
+
+.bloco3-footer {
+    display: block;
+    margin-left: 2em;
+    margin-top: 1em;
+}
+
+.redes-sociais {
+    display: flex;
+}
+
+.Redes-Sociais-titulo {
+    display: flex;
+    flex-direction: row;
+}
+
+.Redes-Sociais-titulo p {
+    font-size: 18px;
+    color:#aa9691;
+}
+
+.Redes-sociais-menu {
+    display: flex;
+    flex-direction:row;
+    margin-left: 15px;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.icone-facebook{
+    width:20px;
+    height: 20px;
+}
+
+.icone-whatsaap {
+    width: 20px;
+    height: 20px;
+}
+.icone-instagram{
+    margin-top: 3px;
+    width: 20px;
+    height: 15px;
+}
+
+.Atendimento {
+    display: flex;
+    margin-top:8px;
+    gap: 10px;
+        
+}
+.Atendimento-titulo {
+    display: flex;
+}
+
+.Atendimento-titulo p {
+    font-size: 18px;
+    color:#aa9691;
+}
+
+.Atendimento-conteudo {
+    color: #e6b7ad;
+    margin-top: 2px;
+    font-size: 14px;
+}
+

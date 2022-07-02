@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orçamento confectioneryS&G</title>
+    <link rel="stylesheet" href="estilos/SolicitacaoOrcamento.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <section class="menu-principal">
+                <div class="container">
+                    <div class="menu">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="Cardapio.html">Cardapio</a></li>
+                            <li><a href="Contato.html">Contato</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </nav>
+    </header>
+
+    <main>
+        <section class="Orçamento">
+            <div class="Conteudo-Principal-Escrito">
+                <h1 class="Conteudo-Principal-Escrito-Titulo">Solicitação de Orçamento:</h1>
+            </div>
+
+            <section class="formulario">
+                <div class="formulario-orcamento">
+
+                    <form action="/pagina-processa-dados-do-form" method="post">
+                        <div>
+                            <label for="nome">Nome:</label>
+                            <input type="text" id="nome" />
+                        </div>
+                        <div>
+                            <label for="email">E-mail:</label>
+                            <input type="email" id="email" />
+                        </div>
+                        <div>
+                            <label for="fone">Celular com DDD</label>
+                            <input type="tel" id="fone" name="fone" required pattern="[0-9]{2} [0-9]{5}-[0-9]{4}"
+                                placeholder="(00)0000-0000">
+                        </div>
+                        <div class="enviar-mensagem">
+                            <label for="msg">Mensagem:</label>
+                            <textarea id="msg"></textarea>
+                            <div class="button">
+                                <button type="submit">Enviar</button>
+                            </div>
+                        </div>
+
+                    </form>
+
+                </div>
+            </section>
+
+            <section class="Frase-de-impacto">
+                <div class="imagem-frase-de-impacto">
+                    <img src="imagens/frase de impacto.jpg" alt="">
+                </div>
+            </section>
+
+            <footer>
+                <div class="container">
+        
+                    <div class="bloco1-footer">
+        
+                        <div class="institucional-titulo">
+                            <p>Institucional:</p>
+                        </div>
+        
+                        <div class="institucional-menu">
+                            <ul>
+                                <li><a href="#" class="item-menu-footer">Quem somos</a></li>
+                                <li><a href="#" class="item-menu-footer">Segurança</a></li>
+                                <li><a href="#" class="item-menu-footer">Politica de Privacidade</a></li>
+                                <p class="cnpj">CNPJ: 31.345.198/0001-34</p>
+                            </ul>
+                        </div>
+                    </div>
+        
+                    <div class="bloco2-footer">
+        
+                        <div class="Duvidas-titulo">
+                            <p>Duvidas:</p>
+                        </div>
+        
+                        <div class="Duvidas-menu">
+                            <ul>
+                                <li><a href="#" class="item-menu-footer">Entrega</a></li>
+                                <li><a href="#" class="item-menu-footer">Meus Pedidos</a></li>
+                                <li><a href="#" class="item-menu-footer">Onde estamos</a></li>
+                                <li><a href="#" class="item-menu-footer">Termos e Condições</a></li>
+                            </ul>
+                        </div>
+                    </div>
+        
+        
+                    <div class="bloco3-footer">
+        
+                        <div class="redes-sociais">
+                            <div class="Redes-Sociais-titulo">
+                                <p>Redes Sociais:</p>
+                            </div>
+        
+                            <div class="Redes-sociais-menu">
+                                <img src="imagens/icones/icone facebook.svg" class="icone-facebook">
+                                <img src="imagens/icones/Iconne telefone.svg" class="icone-whatsaap">
+                                <img src="imagens/icones/Icone Instagram.svg" class="icone-instagram">
+                            </div>
+                        </div>
+        
+                        <div class="Atendimento">
+                            <div class="Atendimento-titulo">
+                                <p>Atendimento:</p>
+                            </div>
+                            <div class="Atendimento-conteudo">
+                                <p> (11) 95439-9086 </p>
+                                <p> confectionerys&g_contato@confectionery.com.br</p>
+                            </div>
+                        </div>
+        
+                    </div>
+                </div>
+            </footer>
+</body>
+
+</html>

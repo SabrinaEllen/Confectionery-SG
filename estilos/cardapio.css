@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;    
+}
+
+body, html {
+    background: #ecdcc3;
+}
+
+header {
+    width: 100%;
+    height: 150px;
+}
+
+
+nav {
+    border-bottom:2px solid #af6454;
+    margin-top: 2em;
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+.menu-principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 1em;
+
+}
+
+.menu {
+    display: flex;
+   
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    gap: 100px;
+}
+
+.menu li {
+    display: flex;
+}
+
+.menu li a {
+    color:#af6454;
+    text-decoration: none;
+
+}
+.menu li a:hover {
+    color: #6d453c;
+    cursor: pointer;
+}
+
+.main {
+    width: 100%;
+    
+}
+
+.Produtos {
+    display: flex;
+    justify-content: space-around;
+    margin-top: -3em;
+    
+}
+.Titulo-Produtos {
+    display: flex;
+    justify-content:space-around;
+}
+
+.Titulo-Produtos h1 {
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 30px;
+    color:#af6454;
+    margin-top: -20px;
+    text-align: center;
+
+}
+
+.Bolos-de-Festa-tradicional {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.titulo-bolos-de-festa-tradicional {
+    display: flex;
+    flex-direction: row;
+}
+
+.cards-bolos-festa-tradicionais {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+
+.card {
+    background-color:#6d453c;
+    width: 13em;
+    height: 16em;
+    border-radius: 15px;
+    margin-top: 40px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+    
+}
+
+.imagem {
+    display: flex;
+    justify-content: center;
+}
+
+.imagem img {
+    height: 120px;
+    width: 120px;
+    border-radius: 18px;
+    margin-top: 1em;
+}
+
+.texto {
+    display: flex;
+    justify-content: center;
+}
+
+.texto a {
+    margin-top: 1em;
+    color:#ebc3bb;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.texto a:hover {
+    cursor: pointer;
+    transition: 1s;
+    color: antiquewhite;
+}
+
+.valor {
+    display: flex;
+    justify-content: center;
+}
+
+.valor p {
+    margin-top: 1em;
+    font-size: 12px;
+    font-weight: 300;
+    color: #ebc3bb;
+}
+.btn-comprar {
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+.btn-comprar button {
+    background: #d8aca2;
+    width: 80px;
+    height: 30px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 18px;
+    font-family:'Sarala', sans-serif; 
+    font-weight: 400px;
+    font-size: 11px;
+    color:#6d453c;
+    cursor: pointer;
+
+}
+
+.btn-comprar button:hover {
+    background: #ebc3bb;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    color:#6d453c;
+    cursor: pointer;
+}
+
